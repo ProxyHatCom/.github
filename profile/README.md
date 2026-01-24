@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/mainlogowhite.png">
-  <source media="(prefers-color-scheme: light)" srcset="profile/mainlogo.png">
-  <img alt="ProxyHat - Elite Proxy Infrastructure" src="profile/mainlogowhite.png" width="280">
+  <source media="(prefers-color-scheme: dark)" srcset="mainlogowhite.png">
+  <source media="(prefers-color-scheme: light)" srcset="mainlogo.png">
+  <img alt="ProxyHat - Elite Proxy Infrastructure" src="mainlogowhite.png" width="280">
 </picture>
 
 <br><br>
