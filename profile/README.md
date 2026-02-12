@@ -279,6 +279,63 @@ Browser Automation
 
 <br>
 
+## Open Source Tools
+
+<br>
+
+We build free, open-source CLI tools for proxy operators and developers. Provider-agnostic — works with any SOCKS5 service.
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`socks5-bench`](https://github.com/ProxyHatCom/socks5-bench)
+
+Benchmark and health-check SOCKS5 proxies from the command line. One command gives you latency stats, success rates, and IP rotation metrics.
+
+- Health check — verify proxies are alive
+- Benchmark — p50/p95 latency under load
+- Rotation test — count unique exit IPs
+- Interactive mode — paste a proxy, get results
+
+```bash
+pipx install git+https://github.com/ProxyHatCom/socks5-bench.git
+socks5-bench run
+```
+
+[Documentation](https://github.com/ProxyHatCom/socks5-bench) &nbsp;&bull;&nbsp; [Web Demo](https://proxyhatcom.github.io/socks5-bench)
+
+</td>
+<td width="50%" valign="top">
+
+### [`ipvet`](https://github.com/ProxyHatCom/ipvet)
+
+Check proxy IP reputation before you burn requests. Queries 12 DNSBLs, classifies datacenter vs residential, and scores each IP 0–100.
+
+- Blacklist scan — 12 DNSBLs in parallel
+- IP classification — datacenter / residential / mobile
+- Quality scoring — A through F grades
+- Proxy mode — check exit IP through SOCKS5
+
+```bash
+pipx install git+https://github.com/ProxyHatCom/ipvet.git
+ipvet check -i 1.2.3.4
+```
+
+[Documentation](https://github.com/ProxyHatCom/ipvet)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+---
+
+<br>
+
 ## Quick Start
 
 <br>
