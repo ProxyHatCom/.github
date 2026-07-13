@@ -349,6 +349,17 @@ pip install yt-dlp-proxyhat
 <tr>
 <td width="50%" valign="top">
 
+### [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat)
+
+[PyPI](https://pypi.org/project/nodriver-proxyhat/) · route **nodriver/undetected-chromedriver** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install nodriver-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
 ### [`projectdiscovery-proxyhat`](https://github.com/ProxyHatCom/projectdiscovery-proxyhat)
 
 [npm](https://www.npmjs.com/package/projectdiscovery-proxyhat) · route **katana/httpx/subfinder** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
@@ -358,6 +369,8 @@ npm install projectdiscovery-proxyhat
 ```
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [`n8n-nodes-proxyhat`](https://github.com/ProxyHatCom/n8n-nodes-proxyhat)
@@ -369,16 +382,9 @@ npm install n8n-nodes-proxyhat
 ```
 
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
-
-<div align="center">
-
-<br>
-
-**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat)
-
-</div>
 
 <div align="center">
 

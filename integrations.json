@@ -212,7 +212,7 @@
       "tier": "B",
       "mechanism": "proxy helper",
       "upstreamPr": false,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/nodriver-proxyhat"
     },
     {
