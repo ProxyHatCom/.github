@@ -202,13 +202,85 @@ npm install puppeteer-extra-plugin-proxyhat
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`playwright-proxyhat`](https://github.com/ProxyHatCom/playwright-proxyhat)
+
+[npm](https://www.npmjs.com/package/playwright-proxyhat) · route **Playwright** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+npm install playwright-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`requests-proxyhat`](https://github.com/ProxyHatCom/requests-proxyhat)
+
+[PyPI](https://pypi.org/project/requests-proxyhat/) · route **requests** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install requests-proxyhat
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`httpx-proxyhat`](https://github.com/ProxyHatCom/httpx-proxyhat)
+
+[PyPI](https://pypi.org/project/httpx-proxyhat/) · route **httpx** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install httpx-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`colly-proxyhat`](https://github.com/ProxyHatCom/colly-proxyhat)
+
+[npm](https://www.npmjs.com/package/colly-proxyhat) · route **Colly** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+npm install colly-proxyhat
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`curl-cffi-proxyhat`](https://github.com/ProxyHatCom/curl-cffi-proxyhat)
+
+[PyPI](https://pypi.org/project/curl-cffi-proxyhat/) · route **curl_cffi** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install curl-cffi-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`axios-proxyhat`](https://github.com/ProxyHatCom/axios-proxyhat)
+
+[npm](https://www.npmjs.com/package/axios-proxyhat) · route **axios** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+npm install axios-proxyhat
+```
+
+</td>
+</tr>
 </table>
 
 <div align="center">
 
 <br>
 
-**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`axios-proxyhat`](https://github.com/ProxyHatCom/axios-proxyhat) &nbsp;·&nbsp; [`playwright-proxyhat`](https://github.com/ProxyHatCom/playwright-proxyhat) &nbsp;·&nbsp; [`requests-proxyhat`](https://github.com/ProxyHatCom/requests-proxyhat) &nbsp;·&nbsp; [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat) &nbsp;·&nbsp; [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat) &nbsp;·&nbsp; [`colly-proxyhat`](https://github.com/ProxyHatCom/colly-proxyhat) &nbsp;·&nbsp; [`httpx-proxyhat`](https://github.com/ProxyHatCom/httpx-proxyhat) &nbsp;·&nbsp; [`curl-cffi-proxyhat`](https://github.com/ProxyHatCom/curl-cffi-proxyhat)
+**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat) &nbsp;·&nbsp; [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat)
 
 </div>
 
