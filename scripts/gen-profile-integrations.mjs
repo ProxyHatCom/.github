@@ -22,27 +22,16 @@ const registry = (i) =>
     : `[npm](https://www.npmjs.com/package/${i.repo})`;
 
 const all = manifest.integrations;
-// Featured = anything already public on GitHub (live repo). Roadmap = the rest.
-const featured = all.filter((i) => i.status === "published" || i.status === "scaffolded");
-const roadmap = all.filter((i) => !(i.status === "published" || i.status === "scaffolded"));
-
-const statusLabel = {
-  published: "**Live**",
-  scaffolded: "**Live on GitHub**",
-  "upstream-pr-open": "PR open upstream",
-  planned: "Planned",
-};
+// Featured cards = published to npm/PyPI (real install line). "On GitHub" =
+// built & pushed, registry publish pending. Roadmap = planned.
+const featured = all.filter((i) => i.status === "published");
+const onGithub = all.filter((i) => i.status === "scaffolded");
+const roadmap = all.filter((i) => i.status !== "published" && i.status !== "scaffolded");
 
 function card(i) {
   const title = `### [\`${i.repo}\`](${ORG}/${i.repo})`;
-  const line =
-    i.status === "published"
-      ? `${registry(i)} · route **${i.tool}** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.`
-      : `route **${i.tool}** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*`;
-  const install =
-    i.status === "published"
-      ? "```bash\n" + installCmd(i) + "\n```"
-      : `[View on GitHub](${ORG}/${i.repo})`;
+  const line = `${registry(i)} · route **${i.tool}** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.`;
+  const install = "```bash\n" + installCmd(i) + "\n```";
   return `${title}\n\n${line}\n\n${install}`;
 }
 
@@ -69,6 +58,18 @@ function roadmapChips(items) {
     .join(" &nbsp;·&nbsp; ");
 }
 
+function repoChips(items) {
+  return items
+    .slice()
+    .sort((a, b) => b.stars - a.stars)
+    .map((i) => `[\`${i.repo}\`](${ORG}/${i.repo})`)
+    .join(" &nbsp;·&nbsp; ");
+}
+
+const onGithubSection = onGithub.length
+  ? `<div align="center">\n\n<br>\n\n**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; ${repoChips(onGithub)}\n\n</div>\n\n`
+  : "";
+
 const block = `${START}
 ## Framework & Tool Integrations
 
@@ -80,9 +81,7 @@ First-class ProxyHat support for the tools developers already use — **one line
 
 ${featuredTable(featured)}
 
-<div align="center">
-
-<br>
+${onGithubSection}<div align="center">
 
 **Rolling out next** &nbsp;—&nbsp; ${roadmapChips(roadmap)}
 

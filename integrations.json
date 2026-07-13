@@ -80,7 +80,8 @@
       "tier": "A",
       "mechanism": "fixture + rotating-context helper",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/playwright-proxyhat"
     },
     {
       "repo": "requests-proxyhat",
@@ -90,7 +91,8 @@
       "tier": "A",
       "mechanism": "ProxyHatSession adapter",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/requests-proxyhat"
     },
     {
       "repo": "httpx-proxyhat",
@@ -100,7 +102,8 @@
       "tier": "A",
       "mechanism": "ProxyHatTransport",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/httpx-proxyhat"
     },
     {
       "repo": "colly-proxyhat",
@@ -110,7 +113,8 @@
       "tier": "A",
       "mechanism": "ProxyFunc rotator",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/colly-proxyhat"
     },
     {
       "repo": "curl-cffi-proxyhat",
@@ -120,7 +124,8 @@
       "tier": "A",
       "mechanism": "session helper",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/curl-cffi-proxyhat"
     },
     {
       "repo": "llamaindex-proxyhat",
@@ -130,7 +135,8 @@
       "tier": "A",
       "mechanism": "web-reader integration",
       "upstreamPr": true,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/llamaindex-proxyhat"
     },
     {
       "repo": "selenium-proxyhat",
@@ -140,7 +146,8 @@
       "tier": "A",
       "mechanism": "auth-proxy helper",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/selenium-proxyhat"
     },
     {
       "repo": "axios-proxyhat",
@@ -150,7 +157,8 @@
       "tier": "A",
       "mechanism": "agent/interceptor",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/axios-proxyhat"
     },
     {
       "repo": "stagehand-proxyhat",

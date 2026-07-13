@@ -208,7 +208,13 @@ npm install puppeteer-extra-plugin-proxyhat
 
 <br>
 
-**Rolling out next** &nbsp;—&nbsp; `axios` &nbsp;·&nbsp; `yt-dlp` &nbsp;·&nbsp; `Playwright` &nbsp;·&nbsp; `Sherlock` &nbsp;·&nbsp; `requests` &nbsp;·&nbsp; `n8n` &nbsp;·&nbsp; `LlamaIndex` &nbsp;·&nbsp; `Selenium` &nbsp;·&nbsp; `Colly` &nbsp;·&nbsp; `ScrapeGraphAI` &nbsp;·&nbsp; `httpx` &nbsp;·&nbsp; `Stagehand` &nbsp;·&nbsp; `katana/httpx/subfinder` &nbsp;·&nbsp; `nodriver/undetected-chromedriver` &nbsp;·&nbsp; `curl_cffi`
+**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`axios-proxyhat`](https://github.com/ProxyHatCom/axios-proxyhat) &nbsp;·&nbsp; [`playwright-proxyhat`](https://github.com/ProxyHatCom/playwright-proxyhat) &nbsp;·&nbsp; [`requests-proxyhat`](https://github.com/ProxyHatCom/requests-proxyhat) &nbsp;·&nbsp; [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat) &nbsp;·&nbsp; [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat) &nbsp;·&nbsp; [`colly-proxyhat`](https://github.com/ProxyHatCom/colly-proxyhat) &nbsp;·&nbsp; [`httpx-proxyhat`](https://github.com/ProxyHatCom/httpx-proxyhat) &nbsp;·&nbsp; [`curl-cffi-proxyhat`](https://github.com/ProxyHatCom/curl-cffi-proxyhat)
+
+</div>
+
+<div align="center">
+
+**Rolling out next** &nbsp;—&nbsp; `yt-dlp` &nbsp;·&nbsp; `Sherlock` &nbsp;·&nbsp; `n8n` &nbsp;·&nbsp; `ScrapeGraphAI` &nbsp;·&nbsp; `Stagehand` &nbsp;·&nbsp; `katana/httpx/subfinder` &nbsp;·&nbsp; `nodriver/undetected-chromedriver`
 
 <sub>Want your tool supported? [Open an issue](https://github.com/ProxyHatCom) or watch the org.</sub>
 
