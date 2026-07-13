@@ -168,7 +168,8 @@
       "tier": "B",
       "mechanism": "proxy helper",
       "upstreamPr": true,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/stagehand-proxyhat"
     },
     {
       "repo": "scrapegraphai-proxyhat",
@@ -178,7 +179,8 @@
       "tier": "B",
       "mechanism": "provider via loader_kwargs",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/scrapegraphai-proxyhat"
     },
     {
       "repo": "sherlock-proxyhat",
@@ -188,7 +190,8 @@
       "tier": "B",
       "mechanism": "rotating --proxy provider",
       "upstreamPr": true,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/sherlock-proxyhat"
     },
     {
       "repo": "yt-dlp-proxyhat",
@@ -198,7 +201,8 @@
       "tier": "B",
       "mechanism": "curated geo-proxy config + URL builder",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/yt-dlp-proxyhat"
     },
     {
       "repo": "nodriver-proxyhat",
@@ -208,7 +212,8 @@
       "tier": "B",
       "mechanism": "proxy helper",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/nodriver-proxyhat"
     },
     {
       "repo": "projectdiscovery-proxyhat",
@@ -218,7 +223,8 @@
       "tier": "B",
       "mechanism": "upstream proxy-support PRs",
       "upstreamPr": true,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/projectdiscovery-proxyhat"
     },
     {
       "repo": "n8n-nodes-proxyhat",
@@ -228,7 +234,8 @@
       "tier": "B",
       "mechanism": "community node (ProxyHat + HatFetch)",
       "upstreamPr": false,
-      "status": "planned"
+      "status": "scaffolded",
+      "url": "https://github.com/ProxyHatCom/n8n-nodes-proxyhat"
     }
   ]
 }

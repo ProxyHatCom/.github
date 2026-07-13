@@ -302,7 +302,15 @@ npm install axios-proxyhat
 
 <div align="center">
 
-**Rolling out next** &nbsp;—&nbsp; `yt-dlp` &nbsp;·&nbsp; `Sherlock` &nbsp;·&nbsp; `n8n` &nbsp;·&nbsp; `ScrapeGraphAI` &nbsp;·&nbsp; `Stagehand` &nbsp;·&nbsp; `katana/httpx/subfinder` &nbsp;·&nbsp; `nodriver/undetected-chromedriver`
+<br>
+
+**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`yt-dlp-proxyhat`](https://github.com/ProxyHatCom/yt-dlp-proxyhat) &nbsp;·&nbsp; [`sherlock-proxyhat`](https://github.com/ProxyHatCom/sherlock-proxyhat) &nbsp;·&nbsp; [`n8n-nodes-proxyhat`](https://github.com/ProxyHatCom/n8n-nodes-proxyhat) &nbsp;·&nbsp; [`scrapegraphai-proxyhat`](https://github.com/ProxyHatCom/scrapegraphai-proxyhat) &nbsp;·&nbsp; [`stagehand-proxyhat`](https://github.com/ProxyHatCom/stagehand-proxyhat) &nbsp;·&nbsp; [`projectdiscovery-proxyhat`](https://github.com/ProxyHatCom/projectdiscovery-proxyhat) &nbsp;·&nbsp; [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat)
+
+</div>
+
+<div align="center">
+
+**Rolling out next** &nbsp;—&nbsp; 
 
 <sub>Want your tool supported? [Open an issue](https://github.com/ProxyHatCom) or watch the org.</sub>
 
