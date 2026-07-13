@@ -362,9 +362,11 @@ pip install scrapy-proxyhat
 
 ### [`crawlee-proxyhat`](https://github.com/ProxyHatCom/crawlee-proxyhat)
 
-route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+[npm](https://www.npmjs.com/package/crawlee-proxyhat) · route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
 
-[View on GitHub](https://github.com/ProxyHatCom/crawlee-proxyhat)
+```bash
+npm install crawlee-proxyhat
+```
 
 </td>
 </tr>
@@ -373,18 +375,22 @@ route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-tar
 
 ### [`crawl4ai-proxyhat`](https://github.com/ProxyHatCom/crawl4ai-proxyhat)
 
-route **Crawl4AI** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+[PyPI](https://pypi.org/project/crawl4ai-proxyhat/) · route **Crawl4AI** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
 
-[View on GitHub](https://github.com/ProxyHatCom/crawl4ai-proxyhat)
+```bash
+pip install crawl4ai-proxyhat
+```
 
 </td>
 <td width="50%" valign="top">
 
 ### [`browser-use-proxyhat`](https://github.com/ProxyHatCom/browser-use-proxyhat)
 
-route **browser-use** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+[PyPI](https://pypi.org/project/browser-use-proxyhat/) · route **browser-use** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
 
-[View on GitHub](https://github.com/ProxyHatCom/browser-use-proxyhat)
+```bash
+pip install browser-use-proxyhat
+```
 
 </td>
 </tr>
@@ -393,18 +399,22 @@ route **browser-use** through ProxyHat residential proxies — rotating IPs, geo
 
 ### [`langchain-proxyhat`](https://github.com/ProxyHatCom/langchain-proxyhat)
 
-route **LangChain** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+[PyPI](https://pypi.org/project/langchain-proxyhat/) · route **LangChain** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
 
-[View on GitHub](https://github.com/ProxyHatCom/langchain-proxyhat)
+```bash
+pip install langchain-proxyhat
+```
 
 </td>
 <td width="50%" valign="top">
 
 ### [`puppeteer-extra-plugin-proxyhat`](https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat)
 
-route **puppeteer-extra** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+[npm](https://www.npmjs.com/package/puppeteer-extra-plugin-proxyhat) · route **puppeteer-extra** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
 
-[View on GitHub](https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat)
+```bash
+npm install puppeteer-extra-plugin-proxyhat
+```
 
 </td>
 </tr>
