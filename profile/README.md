@@ -368,6 +368,46 @@ route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-tar
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`crawl4ai-proxyhat`](https://github.com/ProxyHatCom/crawl4ai-proxyhat)
+
+route **Crawl4AI** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+
+[View on GitHub](https://github.com/ProxyHatCom/crawl4ai-proxyhat)
+
+</td>
+<td width="50%" valign="top">
+
+### [`browser-use-proxyhat`](https://github.com/ProxyHatCom/browser-use-proxyhat)
+
+route **browser-use** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+
+[View on GitHub](https://github.com/ProxyHatCom/browser-use-proxyhat)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`langchain-proxyhat`](https://github.com/ProxyHatCom/langchain-proxyhat)
+
+route **LangChain** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+
+[View on GitHub](https://github.com/ProxyHatCom/langchain-proxyhat)
+
+</td>
+<td width="50%" valign="top">
+
+### [`puppeteer-extra-plugin-proxyhat`](https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat)
+
+route **puppeteer-extra** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+
+[View on GitHub](https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat)
+
+</td>
+</tr>
 </table>
 
 <br>
@@ -382,10 +422,6 @@ route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-tar
 
 | Tool | Package | Lang | Status |
 |:-----|:--------|:-----|:-------|
-| **LangChain** | `langchain-proxyhat` | python | Planned |
-| **puppeteer-extra** | `puppeteer-extra-plugin-proxyhat` | node | Planned |
-| **browser-use** | `browser-use-proxyhat` | python | Planned |
-| **Crawl4AI** | `crawl4ai-proxyhat` | python | Planned |
 | **axios** | `axios-proxyhat` | node | Planned |
 | **Playwright** | `playwright-proxyhat` | node | Planned |
 | **requests** | `requests-proxyhat` | python | Planned |
