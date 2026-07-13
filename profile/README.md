@@ -298,13 +298,85 @@ npm install axios-proxyhat
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`stagehand-proxyhat`](https://github.com/ProxyHatCom/stagehand-proxyhat)
+
+[npm](https://www.npmjs.com/package/stagehand-proxyhat) · route **Stagehand** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+npm install stagehand-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`scrapegraphai-proxyhat`](https://github.com/ProxyHatCom/scrapegraphai-proxyhat)
+
+[PyPI](https://pypi.org/project/scrapegraphai-proxyhat/) · route **ScrapeGraphAI** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install scrapegraphai-proxyhat
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`sherlock-proxyhat`](https://github.com/ProxyHatCom/sherlock-proxyhat)
+
+[PyPI](https://pypi.org/project/sherlock-proxyhat/) · route **Sherlock** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install sherlock-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`yt-dlp-proxyhat`](https://github.com/ProxyHatCom/yt-dlp-proxyhat)
+
+[PyPI](https://pypi.org/project/yt-dlp-proxyhat/) · route **yt-dlp** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install yt-dlp-proxyhat
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`projectdiscovery-proxyhat`](https://github.com/ProxyHatCom/projectdiscovery-proxyhat)
+
+[npm](https://www.npmjs.com/package/projectdiscovery-proxyhat) · route **katana/httpx/subfinder** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+npm install projectdiscovery-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`n8n-nodes-proxyhat`](https://github.com/ProxyHatCom/n8n-nodes-proxyhat)
+
+[npm](https://www.npmjs.com/package/n8n-nodes-proxyhat) · route **n8n** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+npm install n8n-nodes-proxyhat
+```
+
+</td>
+</tr>
 </table>
 
 <div align="center">
 
 <br>
 
-**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`yt-dlp-proxyhat`](https://github.com/ProxyHatCom/yt-dlp-proxyhat) &nbsp;·&nbsp; [`sherlock-proxyhat`](https://github.com/ProxyHatCom/sherlock-proxyhat) &nbsp;·&nbsp; [`n8n-nodes-proxyhat`](https://github.com/ProxyHatCom/n8n-nodes-proxyhat) &nbsp;·&nbsp; [`scrapegraphai-proxyhat`](https://github.com/ProxyHatCom/scrapegraphai-proxyhat) &nbsp;·&nbsp; [`stagehand-proxyhat`](https://github.com/ProxyHatCom/stagehand-proxyhat) &nbsp;·&nbsp; [`projectdiscovery-proxyhat`](https://github.com/ProxyHatCom/projectdiscovery-proxyhat) &nbsp;·&nbsp; [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat)
+**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat)
 
 </div>
 

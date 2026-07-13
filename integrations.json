@@ -168,7 +168,7 @@
       "tier": "B",
       "mechanism": "proxy helper",
       "upstreamPr": true,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/stagehand-proxyhat"
     },
     {
@@ -179,7 +179,7 @@
       "tier": "B",
       "mechanism": "provider via loader_kwargs",
       "upstreamPr": false,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/scrapegraphai-proxyhat"
     },
     {
@@ -190,7 +190,7 @@
       "tier": "B",
       "mechanism": "rotating --proxy provider",
       "upstreamPr": true,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/sherlock-proxyhat"
     },
     {
@@ -201,7 +201,7 @@
       "tier": "B",
       "mechanism": "curated geo-proxy config + URL builder",
       "upstreamPr": false,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/yt-dlp-proxyhat"
     },
     {
@@ -223,7 +223,7 @@
       "tier": "B",
       "mechanism": "upstream proxy-support PRs",
       "upstreamPr": true,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/projectdiscovery-proxyhat"
     },
     {
@@ -234,7 +234,7 @@
       "tier": "B",
       "mechanism": "community node (ProxyHat + HatFetch)",
       "upstreamPr": false,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/n8n-nodes-proxyhat"
     }
   ]
