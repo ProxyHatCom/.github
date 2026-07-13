@@ -12,80 +12,80 @@ const readmePath = join(root, "profile", "README.md");
 
 const START = "<!-- INTEGRATIONS:START -->";
 const END = "<!-- INTEGRATIONS:END -->";
-
 const ORG = "https://github.com/ProxyHatCom";
-const utm = (c) => `https://proxyhat.com?utm_source=github&utm_medium=readme&utm_campaign=${c}`;
-const installCmd = (i) => (i.lang === "python" ? `pip install ${i.repo}` : `npm install ${i.repo}`);
-const registry = (i) =>
+
+// Category display order + a small icon per group.
+const CATEGORIES = [
+  ["Scraping & crawling", "🕷️"],
+  ["Browser automation", "🌐"],
+  ["AI agents & LLM", "🤖"],
+  ["HTTP clients", "⚡"],
+  ["OSINT & recon", "🔎"],
+  ["Media & no-code", "📥"],
+  ["Other", "📦"],
+];
+
+const registryUrl = (i) =>
   i.lang === "python"
-    ? `[PyPI](https://pypi.org/project/${i.repo}/)`
-    : `[npm](https://www.npmjs.com/package/${i.repo})`;
+    ? `https://pypi.org/project/${i.repo}/`
+    : i.lang === "go"
+      ? `https://pkg.go.dev/github.com/ProxyHatCom/${i.repo}`
+      : `https://www.npmjs.com/package/${i.repo}`;
+
+// Live version badge (shields.io) — updates itself as new versions ship.
+function versionBadge(i) {
+  if (i.lang === "python")
+    return `https://img.shields.io/pypi/v/${i.repo}?logo=pypi&logoColor=white&label=PyPI&color=3775A9`;
+  if (i.lang === "go")
+    return `https://img.shields.io/github/v/tag/ProxyHatCom/${i.repo}?logo=go&logoColor=white&label=Go&color=00ADD8`;
+  return `https://img.shields.io/npm/v/${i.repo}?logo=npm&logoColor=white&label=npm&color=CB3837`;
+}
+
+const published = (i) => i.status === "published";
+
+function row(i) {
+  const pkg = `[\`${i.repo}\`](${ORG}/${i.repo})`;
+  if (published(i)) {
+    return `| **${i.tool}** | ${pkg} | [![${i.lang}](${versionBadge(i)})](${registryUrl(i)}) |`;
+  }
+  const label = i.status === "scaffolded" ? "publishing soon" : "planned";
+  return `| **${i.tool}** | ${pkg} | _${label}_ |`;
+}
+
+function categoryTables(items) {
+  const out = [];
+  for (const [name, icon] of CATEGORIES) {
+    const group = items.filter((i) => (i.category || "Other") === name);
+    if (group.length === 0) continue;
+    group.sort((a, b) => b.stars - a.stars);
+    out.push(
+      `#### ${icon} ${name}\n\n| Tool | Package | Version |\n|:--|:--|:--|\n${group.map(row).join("\n")}`,
+    );
+  }
+  return out.join("\n\n");
+}
 
 const all = manifest.integrations;
-// Featured cards = published to npm/PyPI (real install line). "On GitHub" =
-// built & pushed, registry publish pending. Roadmap = planned.
-const featured = all.filter((i) => i.status === "published");
-const onGithub = all.filter((i) => i.status === "scaffolded");
-const roadmap = all.filter((i) => i.status !== "published" && i.status !== "scaffolded");
-
-function card(i) {
-  const title = `### [\`${i.repo}\`](${ORG}/${i.repo})`;
-  const line = `${registry(i)} · route **${i.tool}** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.`;
-  const install = "```bash\n" + installCmd(i) + "\n```";
-  return `${title}\n\n${line}\n\n${install}`;
-}
-
-// Two-column featured table (matches the "Open Source Tools" section style).
-function featuredTable(items) {
-  if (items.length === 0) return "";
-  let out = "<table>\n";
-  for (let r = 0; r < items.length; r += 2) {
-    out += "<tr>\n";
-    out += `<td width="50%" valign="top">\n\n${card(items[r])}\n\n</td>\n`;
-    if (items[r + 1]) out += `<td width="50%" valign="top">\n\n${card(items[r + 1])}\n\n</td>\n`;
-    else out += `<td width="50%" valign="top"></td>\n`;
-    out += "</tr>\n";
-  }
-  out += "</table>";
-  return out;
-}
-
-function roadmapChips(items) {
-  return items
-    .slice()
-    .sort((a, b) => b.stars - a.stars)
-    .map((i) => `\`${i.tool}\``)
-    .join(" &nbsp;·&nbsp; ");
-}
-
-function repoChips(items) {
-  return items
-    .slice()
-    .sort((a, b) => b.stars - a.stars)
-    .map((i) => `[\`${i.repo}\`](${ORG}/${i.repo})`)
-    .join(" &nbsp;·&nbsp; ");
-}
-
-const onGithubSection = onGithub.length
-  ? `<div align="center">\n\n<br>\n\n**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; ${repoChips(onGithub)}\n\n</div>\n\n`
-  : "";
+const liveCount = all.filter(published).length;
 
 const block = `${START}
-## Framework & Tool Integrations
+## Framework &amp; Tool Integrations
 
 <br>
 
-First-class ProxyHat support for the tools developers already use — **one line** to send any of them out through residential IPs, with country/city geo-targeting and sticky sessions. **Not forks:** every integration is a maintained plug-in / middleware that depends on the upstream tool, so its updates reach you automatically and ours track new releases in CI.
+**${liveCount} first-class integrations** — route the tools you already use through ProxyHat residential proxies in **one line**, with country/city geo-targeting and sticky sessions. **Not forks:** each is a maintained plug-in / middleware that depends on the upstream tool, so its updates reach you automatically and ours track new releases in CI.
+
+Install with \`npm i <package>\` · \`pip install <package>\` · \`go get github.com/ProxyHatCom/<package>\`. Works with any \`PROXY_URL\`; ProxyHat is the first-class default.
 
 <br>
 
-${featuredTable(featured)}
+${categoryTables(all)}
 
-${onGithubSection}<div align="center">
+<div align="center">
 
-**Rolling out next** &nbsp;—&nbsp; ${roadmapChips(roadmap)}
+<br>
 
-<sub>Want your tool supported? [Open an issue](${ORG}) or watch the org.</sub>
+<sub>Want your tool supported next? [Open an issue](${ORG}) or watch the org.</sub>
 
 </div>
 
@@ -93,8 +93,6 @@ ${END}`;
 
 const readme = readFileSync(readmePath, "utf8");
 const re = new RegExp(`${START}[\\s\\S]*?${END}`);
-if (!re.test(readme)) {
-  throw new Error("Integration markers not found in profile/README.md");
-}
+if (!re.test(readme)) throw new Error("Integration markers not found in profile/README.md");
 writeFileSync(readmePath, readme.replace(re, block));
-console.log(`Updated integrations block: ${featured.length} featured, ${roadmap.length} on the roadmap.`);
+console.log(`Updated integrations block: ${liveCount}/${all.length} published across ${new Set(all.map((i) => i.category)).size} categories.`);

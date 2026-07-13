@@ -10,7 +10,8 @@
       "tier": "proof",
       "mechanism": "downloader middleware ProxyHatMiddleware",
       "upstreamPr": false,
-      "status": "published"
+      "status": "published",
+      "category": "Scraping & crawling"
     },
     {
       "repo": "crawlee-proxyhat",
@@ -22,7 +23,8 @@
       "upstreamPr": true,
       "status": "published",
       "url": "https://github.com/ProxyHatCom/crawlee-proxyhat",
-      "note": "built, CI green, pushed; awaiting Release to publish v0.1.0 to npm"
+      "note": "built, CI green, pushed; awaiting Release to publish v0.1.0 to npm",
+      "category": "Scraping & crawling"
     },
     {
       "repo": "crawl4ai-proxyhat",
@@ -34,7 +36,8 @@
       "upstreamPr": false,
       "status": "published",
       "url": "https://github.com/ProxyHatCom/crawl4ai-proxyhat",
-      "note": "built, pushed; awaiting v* tag to publish to PyPI"
+      "note": "built, pushed; awaiting v* tag to publish to PyPI",
+      "category": "Scraping & crawling"
     },
     {
       "repo": "browser-use-proxyhat",
@@ -46,7 +49,8 @@
       "upstreamPr": true,
       "status": "published",
       "url": "https://github.com/ProxyHatCom/browser-use-proxyhat",
-      "note": "built, pushed; awaiting v* tag to publish to PyPI"
+      "note": "built, pushed; awaiting v* tag to publish to PyPI",
+      "category": "AI agents & LLM"
     },
     {
       "repo": "langchain-proxyhat",
@@ -58,7 +62,8 @@
       "upstreamPr": true,
       "status": "published",
       "url": "https://github.com/ProxyHatCom/langchain-proxyhat",
-      "note": "built, pushed; awaiting v* tag to publish to PyPI; registry PR is a follow-up"
+      "note": "built, pushed; awaiting v* tag to publish to PyPI; registry PR is a follow-up",
+      "category": "AI agents & LLM"
     },
     {
       "repo": "puppeteer-extra-plugin-proxyhat",
@@ -70,7 +75,8 @@
       "upstreamPr": false,
       "status": "published",
       "url": "https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat",
-      "note": "built, pushed; awaiting Release to publish to npm"
+      "note": "built, pushed; awaiting Release to publish to npm",
+      "category": "Browser automation"
     },
     {
       "repo": "playwright-proxyhat",
@@ -81,7 +87,8 @@
       "mechanism": "fixture + rotating-context helper",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/playwright-proxyhat"
+      "url": "https://github.com/ProxyHatCom/playwright-proxyhat",
+      "category": "Browser automation"
     },
     {
       "repo": "requests-proxyhat",
@@ -92,7 +99,8 @@
       "mechanism": "ProxyHatSession adapter",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/requests-proxyhat"
+      "url": "https://github.com/ProxyHatCom/requests-proxyhat",
+      "category": "HTTP clients"
     },
     {
       "repo": "httpx-proxyhat",
@@ -103,7 +111,8 @@
       "mechanism": "ProxyHatTransport",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/httpx-proxyhat"
+      "url": "https://github.com/ProxyHatCom/httpx-proxyhat",
+      "category": "HTTP clients"
     },
     {
       "repo": "colly-proxyhat",
@@ -114,7 +123,8 @@
       "mechanism": "ProxyFunc rotator",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/colly-proxyhat"
+      "url": "https://github.com/ProxyHatCom/colly-proxyhat",
+      "category": "Scraping & crawling"
     },
     {
       "repo": "curl-cffi-proxyhat",
@@ -125,7 +135,8 @@
       "mechanism": "session helper",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/curl-cffi-proxyhat"
+      "url": "https://github.com/ProxyHatCom/curl-cffi-proxyhat",
+      "category": "HTTP clients"
     },
     {
       "repo": "llamaindex-proxyhat",
@@ -136,7 +147,8 @@
       "mechanism": "web-reader integration",
       "upstreamPr": true,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/llamaindex-proxyhat"
+      "url": "https://github.com/ProxyHatCom/llamaindex-proxyhat",
+      "category": "AI agents & LLM"
     },
     {
       "repo": "selenium-proxyhat",
@@ -147,7 +159,8 @@
       "mechanism": "auth-proxy helper",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/selenium-proxyhat"
+      "url": "https://github.com/ProxyHatCom/selenium-proxyhat",
+      "category": "Browser automation"
     },
     {
       "repo": "axios-proxyhat",
@@ -158,7 +171,8 @@
       "mechanism": "agent/interceptor",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/axios-proxyhat"
+      "url": "https://github.com/ProxyHatCom/axios-proxyhat",
+      "category": "HTTP clients"
     },
     {
       "repo": "stagehand-proxyhat",
@@ -169,7 +183,8 @@
       "mechanism": "proxy helper",
       "upstreamPr": true,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/stagehand-proxyhat"
+      "url": "https://github.com/ProxyHatCom/stagehand-proxyhat",
+      "category": "Browser automation"
     },
     {
       "repo": "scrapegraphai-proxyhat",
@@ -180,7 +195,8 @@
       "mechanism": "provider via loader_kwargs",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/scrapegraphai-proxyhat"
+      "url": "https://github.com/ProxyHatCom/scrapegraphai-proxyhat",
+      "category": "AI agents & LLM"
     },
     {
       "repo": "sherlock-proxyhat",
@@ -191,7 +207,8 @@
       "mechanism": "rotating --proxy provider",
       "upstreamPr": true,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/sherlock-proxyhat"
+      "url": "https://github.com/ProxyHatCom/sherlock-proxyhat",
+      "category": "OSINT & recon"
     },
     {
       "repo": "yt-dlp-proxyhat",
@@ -202,7 +219,8 @@
       "mechanism": "curated geo-proxy config + URL builder",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/yt-dlp-proxyhat"
+      "url": "https://github.com/ProxyHatCom/yt-dlp-proxyhat",
+      "category": "Media & no-code"
     },
     {
       "repo": "nodriver-proxyhat",
@@ -213,7 +231,8 @@
       "mechanism": "proxy helper",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/nodriver-proxyhat"
+      "url": "https://github.com/ProxyHatCom/nodriver-proxyhat",
+      "category": "Browser automation"
     },
     {
       "repo": "projectdiscovery-proxyhat",
@@ -224,7 +243,8 @@
       "mechanism": "upstream proxy-support PRs",
       "upstreamPr": true,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/projectdiscovery-proxyhat"
+      "url": "https://github.com/ProxyHatCom/projectdiscovery-proxyhat",
+      "category": "OSINT & recon"
     },
     {
       "repo": "n8n-nodes-proxyhat",
@@ -235,7 +255,8 @@
       "mechanism": "community node (ProxyHat + HatFetch)",
       "upstreamPr": false,
       "status": "published",
-      "url": "https://github.com/ProxyHatCom/n8n-nodes-proxyhat"
+      "url": "https://github.com/ProxyHatCom/n8n-nodes-proxyhat",
+      "category": "Media & no-code"
     }
   ]
 }

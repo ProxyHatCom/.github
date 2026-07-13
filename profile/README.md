@@ -121,276 +121,72 @@ pipx install git+https://github.com/ProxyHatCom/ipvet.git
 </table>
 
 <!-- INTEGRATIONS:START -->
-## Framework & Tool Integrations
+## Framework &amp; Tool Integrations
 
 <br>
 
-First-class ProxyHat support for the tools developers already use — **one line** to send any of them out through residential IPs, with country/city geo-targeting and sticky sessions. **Not forks:** every integration is a maintained plug-in / middleware that depends on the upstream tool, so its updates reach you automatically and ours track new releases in CI.
+**21 first-class integrations** — route the tools you already use through ProxyHat residential proxies in **one line**, with country/city geo-targeting and sticky sessions. **Not forks:** each is a maintained plug-in / middleware that depends on the upstream tool, so its updates reach you automatically and ours track new releases in CI.
+
+Install with `npm i <package>` · `pip install <package>` · `go get github.com/ProxyHatCom/<package>`. Works with any `PROXY_URL`; ProxyHat is the first-class default.
 
 <br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [`scrapy-proxyhat`](https://github.com/ProxyHatCom/scrapy-proxyhat)
-
-[PyPI](https://pypi.org/project/scrapy-proxyhat/) · route **Scrapy** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install scrapy-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`crawlee-proxyhat`](https://github.com/ProxyHatCom/crawlee-proxyhat)
-
-[npm](https://www.npmjs.com/package/crawlee-proxyhat) · route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install crawlee-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`crawl4ai-proxyhat`](https://github.com/ProxyHatCom/crawl4ai-proxyhat)
-
-[PyPI](https://pypi.org/project/crawl4ai-proxyhat/) · route **Crawl4AI** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install crawl4ai-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`browser-use-proxyhat`](https://github.com/ProxyHatCom/browser-use-proxyhat)
-
-[PyPI](https://pypi.org/project/browser-use-proxyhat/) · route **browser-use** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install browser-use-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`langchain-proxyhat`](https://github.com/ProxyHatCom/langchain-proxyhat)
-
-[PyPI](https://pypi.org/project/langchain-proxyhat/) · route **LangChain** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install langchain-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`puppeteer-extra-plugin-proxyhat`](https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat)
-
-[npm](https://www.npmjs.com/package/puppeteer-extra-plugin-proxyhat) · route **puppeteer-extra** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install puppeteer-extra-plugin-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`playwright-proxyhat`](https://github.com/ProxyHatCom/playwright-proxyhat)
-
-[npm](https://www.npmjs.com/package/playwright-proxyhat) · route **Playwright** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install playwright-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`requests-proxyhat`](https://github.com/ProxyHatCom/requests-proxyhat)
-
-[PyPI](https://pypi.org/project/requests-proxyhat/) · route **requests** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install requests-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`httpx-proxyhat`](https://github.com/ProxyHatCom/httpx-proxyhat)
-
-[PyPI](https://pypi.org/project/httpx-proxyhat/) · route **httpx** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install httpx-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`colly-proxyhat`](https://github.com/ProxyHatCom/colly-proxyhat)
-
-[npm](https://www.npmjs.com/package/colly-proxyhat) · route **Colly** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install colly-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`curl-cffi-proxyhat`](https://github.com/ProxyHatCom/curl-cffi-proxyhat)
-
-[PyPI](https://pypi.org/project/curl-cffi-proxyhat/) · route **curl_cffi** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install curl-cffi-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat)
-
-[PyPI](https://pypi.org/project/llamaindex-proxyhat/) · route **LlamaIndex** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install llamaindex-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat)
-
-[PyPI](https://pypi.org/project/selenium-proxyhat/) · route **Selenium** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install selenium-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`axios-proxyhat`](https://github.com/ProxyHatCom/axios-proxyhat)
-
-[npm](https://www.npmjs.com/package/axios-proxyhat) · route **axios** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install axios-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`stagehand-proxyhat`](https://github.com/ProxyHatCom/stagehand-proxyhat)
-
-[npm](https://www.npmjs.com/package/stagehand-proxyhat) · route **Stagehand** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install stagehand-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`scrapegraphai-proxyhat`](https://github.com/ProxyHatCom/scrapegraphai-proxyhat)
-
-[PyPI](https://pypi.org/project/scrapegraphai-proxyhat/) · route **ScrapeGraphAI** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install scrapegraphai-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`sherlock-proxyhat`](https://github.com/ProxyHatCom/sherlock-proxyhat)
-
-[PyPI](https://pypi.org/project/sherlock-proxyhat/) · route **Sherlock** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install sherlock-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`yt-dlp-proxyhat`](https://github.com/ProxyHatCom/yt-dlp-proxyhat)
-
-[PyPI](https://pypi.org/project/yt-dlp-proxyhat/) · route **yt-dlp** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install yt-dlp-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat)
-
-[PyPI](https://pypi.org/project/nodriver-proxyhat/) · route **nodriver/undetected-chromedriver** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-pip install nodriver-proxyhat
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [`projectdiscovery-proxyhat`](https://github.com/ProxyHatCom/projectdiscovery-proxyhat)
-
-[npm](https://www.npmjs.com/package/projectdiscovery-proxyhat) · route **katana/httpx/subfinder** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install projectdiscovery-proxyhat
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`n8n-nodes-proxyhat`](https://github.com/ProxyHatCom/n8n-nodes-proxyhat)
-
-[npm](https://www.npmjs.com/package/n8n-nodes-proxyhat) · route **n8n** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
-
-```bash
-npm install n8n-nodes-proxyhat
-```
-
-</td>
-<td width="50%" valign="top"></td>
-</tr>
-</table>
+#### 🕷️ Scraping & crawling
+
+| Tool | Package | Version |
+|:--|:--|:--|
+| **Scrapy** | [`scrapy-proxyhat`](https://github.com/ProxyHatCom/scrapy-proxyhat) | [![python](https://img.shields.io/pypi/v/scrapy-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/scrapy-proxyhat/) |
+| **Crawl4AI** | [`crawl4ai-proxyhat`](https://github.com/ProxyHatCom/crawl4ai-proxyhat) | [![python](https://img.shields.io/pypi/v/crawl4ai-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/crawl4ai-proxyhat/) |
+| **Colly** | [`colly-proxyhat`](https://github.com/ProxyHatCom/colly-proxyhat) | [![go](https://img.shields.io/github/v/tag/ProxyHatCom/colly-proxyhat?logo=go&logoColor=white&label=Go&color=00ADD8)](https://pkg.go.dev/github.com/ProxyHatCom/colly-proxyhat) |
+| **Crawlee** | [`crawlee-proxyhat`](https://github.com/ProxyHatCom/crawlee-proxyhat) | [![node](https://img.shields.io/npm/v/crawlee-proxyhat?logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/crawlee-proxyhat) |
+
+#### 🌐 Browser automation
+
+| Tool | Package | Version |
+|:--|:--|:--|
+| **puppeteer-extra** | [`puppeteer-extra-plugin-proxyhat`](https://github.com/ProxyHatCom/puppeteer-extra-plugin-proxyhat) | [![node](https://img.shields.io/npm/v/puppeteer-extra-plugin-proxyhat?logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/puppeteer-extra-plugin-proxyhat) |
+| **Playwright** | [`playwright-proxyhat`](https://github.com/ProxyHatCom/playwright-proxyhat) | [![node](https://img.shields.io/npm/v/playwright-proxyhat?logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/playwright-proxyhat) |
+| **Selenium** | [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat) | [![python](https://img.shields.io/pypi/v/selenium-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/selenium-proxyhat/) |
+| **Stagehand** | [`stagehand-proxyhat`](https://github.com/ProxyHatCom/stagehand-proxyhat) | [![node](https://img.shields.io/npm/v/stagehand-proxyhat?logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/stagehand-proxyhat) |
+| **nodriver/undetected-chromedriver** | [`nodriver-proxyhat`](https://github.com/ProxyHatCom/nodriver-proxyhat) | [![python](https://img.shields.io/pypi/v/nodriver-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/nodriver-proxyhat/) |
+
+#### 🤖 AI agents & LLM
+
+| Tool | Package | Version |
+|:--|:--|:--|
+| **LangChain** | [`langchain-proxyhat`](https://github.com/ProxyHatCom/langchain-proxyhat) | [![python](https://img.shields.io/pypi/v/langchain-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/langchain-proxyhat/) |
+| **browser-use** | [`browser-use-proxyhat`](https://github.com/ProxyHatCom/browser-use-proxyhat) | [![python](https://img.shields.io/pypi/v/browser-use-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/browser-use-proxyhat/) |
+| **LlamaIndex** | [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat) | [![python](https://img.shields.io/pypi/v/llamaindex-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/llamaindex-proxyhat/) |
+| **ScrapeGraphAI** | [`scrapegraphai-proxyhat`](https://github.com/ProxyHatCom/scrapegraphai-proxyhat) | [![python](https://img.shields.io/pypi/v/scrapegraphai-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/scrapegraphai-proxyhat/) |
+
+#### ⚡ HTTP clients
+
+| Tool | Package | Version |
+|:--|:--|:--|
+| **axios** | [`axios-proxyhat`](https://github.com/ProxyHatCom/axios-proxyhat) | [![node](https://img.shields.io/npm/v/axios-proxyhat?logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/axios-proxyhat) |
+| **requests** | [`requests-proxyhat`](https://github.com/ProxyHatCom/requests-proxyhat) | [![python](https://img.shields.io/pypi/v/requests-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/requests-proxyhat/) |
+| **httpx** | [`httpx-proxyhat`](https://github.com/ProxyHatCom/httpx-proxyhat) | [![python](https://img.shields.io/pypi/v/httpx-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/httpx-proxyhat/) |
+| **curl_cffi** | [`curl-cffi-proxyhat`](https://github.com/ProxyHatCom/curl-cffi-proxyhat) | [![python](https://img.shields.io/pypi/v/curl-cffi-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/curl-cffi-proxyhat/) |
+
+#### 🔎 OSINT & recon
+
+| Tool | Package | Version |
+|:--|:--|:--|
+| **Sherlock** | [`sherlock-proxyhat`](https://github.com/ProxyHatCom/sherlock-proxyhat) | [![python](https://img.shields.io/pypi/v/sherlock-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/sherlock-proxyhat/) |
+| **katana/httpx/subfinder** | [`projectdiscovery-proxyhat`](https://github.com/ProxyHatCom/projectdiscovery-proxyhat) | [![go](https://img.shields.io/github/v/tag/ProxyHatCom/projectdiscovery-proxyhat?logo=go&logoColor=white&label=Go&color=00ADD8)](https://pkg.go.dev/github.com/ProxyHatCom/projectdiscovery-proxyhat) |
+
+#### 📥 Media & no-code
+
+| Tool | Package | Version |
+|:--|:--|:--|
+| **yt-dlp** | [`yt-dlp-proxyhat`](https://github.com/ProxyHatCom/yt-dlp-proxyhat) | [![python](https://img.shields.io/pypi/v/yt-dlp-proxyhat?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/yt-dlp-proxyhat/) |
+| **n8n** | [`n8n-nodes-proxyhat`](https://github.com/ProxyHatCom/n8n-nodes-proxyhat) | [![node](https://img.shields.io/npm/v/n8n-nodes-proxyhat?logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/n8n-nodes-proxyhat) |
 
 <div align="center">
 
-**Rolling out next** &nbsp;—&nbsp; 
+<br>
 
-<sub>Want your tool supported? [Open an issue](https://github.com/ProxyHatCom) or watch the org.</sub>
+<sub>Want your tool supported next? [Open an issue](https://github.com/ProxyHatCom) or watch the org.</sub>
 
 </div>
 
