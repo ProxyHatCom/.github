@@ -61,17 +61,12 @@ function featuredTable(items) {
   return out;
 }
 
-const tierName = { S: "Priority", A: "Core", B: "Ecosystem", proof: "Priority" };
-function roadmapTable(items) {
-  const rows = items
+function roadmapChips(items) {
+  return items
     .slice()
-    .sort((a, b) => ("SAB".indexOf(a.tier) - "SAB".indexOf(b.tier)) || b.stars - a.stars)
-    .map(
-      (i) =>
-        `| **${i.tool}** | \`${i.repo}\` | ${i.lang} | ${statusLabel[i.status] ?? i.status} |`,
-    )
-    .join("\n");
-  return `| Tool | Package | Lang | Status |\n|:-----|:--------|:-----|:-------|\n${rows}`;
+    .sort((a, b) => b.stars - a.stars)
+    .map((i) => `\`${i.tool}\``)
+    .join(" &nbsp;·&nbsp; ");
 }
 
 const block = `${START}
@@ -85,27 +80,15 @@ First-class ProxyHat support for the tools developers already use — **one line
 
 ${featuredTable(featured)}
 
-<br>
-
 <div align="center">
 
-**More integrations rolling out — tracked in the open**
+<br>
+
+**Rolling out next** &nbsp;—&nbsp; ${roadmapChips(roadmap)}
+
+<sub>Want your tool supported? [Open an issue](${ORG}) or watch the org.</sub>
 
 </div>
-
-<br>
-
-${roadmapTable(roadmap)}
-
-<br>
-
-<div align="center">
-
-Want your tool supported next? [Open an issue](${ORG}) or watch the org.
-
-</div>
-
-<br>
 
 ${END}`;
 
