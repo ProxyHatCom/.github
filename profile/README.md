@@ -264,6 +264,30 @@ pip install curl-cffi-proxyhat
 </td>
 <td width="50%" valign="top">
 
+### [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat)
+
+[PyPI](https://pypi.org/project/llamaindex-proxyhat/) · route **LlamaIndex** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install llamaindex-proxyhat
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat)
+
+[PyPI](https://pypi.org/project/selenium-proxyhat/) · route **Selenium** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install selenium-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
 ### [`axios-proxyhat`](https://github.com/ProxyHatCom/axios-proxyhat)
 
 [npm](https://www.npmjs.com/package/axios-proxyhat) · route **axios** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
@@ -275,14 +299,6 @@ npm install axios-proxyhat
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-<br>
-
-**Live on GitHub, publishing to npm / PyPI shortly** &nbsp;—&nbsp; [`llamaindex-proxyhat`](https://github.com/ProxyHatCom/llamaindex-proxyhat) &nbsp;·&nbsp; [`selenium-proxyhat`](https://github.com/ProxyHatCom/selenium-proxyhat)
-
-</div>
 
 <div align="center">
 

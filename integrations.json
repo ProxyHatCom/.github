@@ -135,7 +135,7 @@
       "tier": "A",
       "mechanism": "web-reader integration",
       "upstreamPr": true,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/llamaindex-proxyhat"
     },
     {
@@ -146,7 +146,7 @@
       "tier": "A",
       "mechanism": "auth-proxy helper",
       "upstreamPr": false,
-      "status": "scaffolded",
+      "status": "published",
       "url": "https://github.com/ProxyHatCom/selenium-proxyhat"
     },
     {
