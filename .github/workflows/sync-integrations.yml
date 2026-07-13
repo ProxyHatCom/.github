@@ -1,0 +1,33 @@
+name: Sync integrations showcase
+
+# Regenerates the "Framework & Tool Integrations" block in profile/README.md
+# from integrations.json whenever the manifest changes, and commits the result.
+on:
+  push:
+    branches: [main, master]
+    paths: ["integrations.json", "scripts/gen-profile-integrations.mjs"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/gen-profile-integrations.mjs
+      - name: Commit regenerated profile
+        run: |
+          if [ -n "$(git status --porcelain profile/README.md)" ]; then
+            git config user.name "proxybrad"
+            git config user.email "256714435+proxybrad@users.noreply.github.com"
+            git add profile/README.md
+            git commit -m "chore: regenerate integrations showcase from manifest"
+            git push
+          else
+            echo "No changes."
+          fi

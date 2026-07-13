@@ -336,6 +336,90 @@ ipvet check -i 1.2.3.4
 
 <br>
 
+<!-- INTEGRATIONS:START -->
+## Framework & Tool Integrations
+
+<br>
+
+First-class ProxyHat support for the tools developers already use — **one line** to send any of them out through residential IPs, with country/city geo-targeting and sticky sessions. **Not forks:** every integration is a maintained plug-in / middleware that depends on the upstream tool, so its updates reach you automatically and ours track new releases in CI.
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`scrapy-proxyhat`](https://github.com/ProxyHatCom/scrapy-proxyhat)
+
+[PyPI](https://pypi.org/project/scrapy-proxyhat/) · route **Scrapy** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions.
+
+```bash
+pip install scrapy-proxyhat
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [`crawlee-proxyhat`](https://github.com/ProxyHatCom/crawlee-proxyhat)
+
+route **Crawlee** through ProxyHat residential proxies — rotating IPs, geo-targeting, sticky sessions. *(npm/PyPI publish pending)*
+
+[View on GitHub](https://github.com/ProxyHatCom/crawlee-proxyhat)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+**More integrations rolling out — tracked in the open**
+
+</div>
+
+<br>
+
+| Tool | Package | Lang | Status |
+|:-----|:--------|:-----|:-------|
+| **LangChain** | `langchain-proxyhat` | python | Planned |
+| **puppeteer-extra** | `puppeteer-extra-plugin-proxyhat` | node | Planned |
+| **browser-use** | `browser-use-proxyhat` | python | Planned |
+| **Crawl4AI** | `crawl4ai-proxyhat` | python | Planned |
+| **axios** | `axios-proxyhat` | node | Planned |
+| **Playwright** | `playwright-proxyhat` | node | Planned |
+| **requests** | `requests-proxyhat` | python | Planned |
+| **LlamaIndex** | `llamaindex-proxyhat` | python | Planned |
+| **Selenium** | `selenium-proxyhat` | python | Planned |
+| **Colly** | `colly-proxyhat` | go | Planned |
+| **httpx** | `httpx-proxyhat` | python | Planned |
+| **curl_cffi** | `curl-cffi-proxyhat` | python | Planned |
+| **yt-dlp** | `yt-dlp-proxyhat` | python | Planned |
+| **Sherlock** | `sherlock-proxyhat` | python | Planned |
+| **n8n** | `n8n-nodes-proxyhat` | node | Planned |
+| **ScrapeGraphAI** | `scrapegraphai-proxyhat` | python | Planned |
+| **Stagehand** | `stagehand-proxyhat` | node | Planned |
+| **katana/httpx/subfinder** | `projectdiscovery-proxyhat` | go | Planned |
+| **nodriver/undetected-chromedriver** | `nodriver-proxyhat` | python | Planned |
+
+<br>
+
+<div align="center">
+
+Want your tool supported next? [Open an issue](https://github.com/ProxyHatCom) or watch the org.
+
+</div>
+
+<br>
+
+<!-- INTEGRATIONS:END -->
+
+<br>
+
+---
+
+<br>
+
 ## Quick Start
 
 <br>
