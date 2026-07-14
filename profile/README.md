@@ -27,6 +27,11 @@ ProxyHat is residential-proxy infrastructure — plus the open-source **SDKs, to
 
 <br>
 
+> [!TIP]
+> **Every SDK, tool, and integration here is tested end-to-end against [ProxyHat](https://proxyhat.com?utm_source=github&utm_medium=readme&utm_campaign=org_profile&utm_content=callout) residential proxies — and works great.** Drop in your key and route your scrapers, crawlers, and AI agents through clean residential IPs in one line.
+
+<br>
+
 ---
 
 ## Official SDKs
